@@ -1,0 +1,13 @@
+931cf5d4f570f18377d8d9d8d0ce9a10 *DESCRIPTION
+94ff95a117da0fb3c41fa907f1b99155 *NAMESPACE
+686356a989e8e9b457817e54dbf13b96 *R/functions_bayes.R
+5668f98a922f41518cd5e454f2ae1518 *R/functions_ci.R
+992dc47b6eb7729dee9fb20dd66fa5f1 *R/functions_lasso.R
+d63465876cc040d3d72bc0629912d08a *R/functions_ridge.R
+9dc28b455c8868f32c433338c2ecdcab *man/check_CIbound.Rd
+eff0324b247a0c9381eff3c50a8931f4 *man/estRidge.Rd
+48ec926dea7f7dccfa1fa8505a658b49 *man/festRidge.Rd
+ce06927915116bc919660e35a0c8690c *man/mseRidge.Rd
+d87a8c2547beb7284bb755b649b886c2 *man/samplePosterior.Rd
+79269f29a7c36744947ead47c0a11c1c *man/simLASSO.Rd
+c5196236739cdbcb49db212984bd672c *man/vcovfestRidge.Rd

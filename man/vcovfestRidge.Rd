@@ -4,8 +4,16 @@
 \alias{vcovfestRidge}
 \title{Standard Error Estimate}
 \usage{
-vcovfestRidge(fLoss, lambda, XtX, postBeta, postSigma2, penalize, ind = 1,
-  version = c("varExp", "full"))
+vcovfestRidge(
+  fLoss,
+  lambda,
+  XtX,
+  postBeta,
+  postSigma2,
+  penalize,
+  ind = 1,
+  version = c("varExp", "full")
+)
 }
 \arguments{
 \item{fLoss}{A matrix of loss function values to be minimized.
@@ -53,10 +61,9 @@ Computes a standard error estimate for an 'fLoss'
 	using the posterior distribution of parameters).
     Currently, two different versions are available.
 }
-\author{
-Joshua Keller
-}
 \seealso{
 \code{\link{festRidge}, \link{samplePosterior}}
 }
-
+\author{
+Joshua Keller
+}

@@ -5,13 +5,34 @@
 \alias{invertTest}
 \title{Confidence intervals for 'fLoss' estimators}
 \usage{
-check_CIbound(testBeta, obsEst, type = c("ridge", "lasso"), postParam,
-  lambdaseq, X, nPost, ind = 1, Bstar = 100, B = 500, loss = "fMBV",
-  lowerBound = TRUE, reproducible = TRUE, alpha = 0.025,
-  returnDist = FALSE, ...)
+check_CIbound(
+  testBeta,
+  obsEst,
+  type = c("ridge", "lasso"),
+  postParam,
+  lambdaseq,
+  X,
+  nPost,
+  ind = 1,
+  Bstar = 100,
+  B = 500,
+  loss = "fMBV",
+  lowerBound = TRUE,
+  reproducible = TRUE,
+  alpha = 0.025,
+  returnDist = FALSE,
+  ...
+)
 
-invertTest(interval, type = "ridge", lower.interval = interval,
-  upper.interval = interval, ..., tol = 0.005, fulldetail = FALSE)
+invertTest(
+  interval,
+  type = "ridge",
+  lower.interval = interval,
+  upper.interval = interval,
+  ...,
+  tol = 0.005,
+  fulldetail = FALSE
+)
 }
 \arguments{
 \item{testBeta}{Candidate value of beta to test.}
@@ -70,10 +91,9 @@ adequately representing the distribution of parameter estimates. In some
 settings, \code{nPost} can be reduced without substantially impacting
 the results. However, each dataset is likely to be different.
 }
-\author{
-Joshua Keller
-}
 \seealso{
 \code{\link{festRidge}}
 }
-
+\author{
+Joshua Keller
+}
